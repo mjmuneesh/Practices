@@ -1,0 +1,36 @@
+/* ---- www.siinandbone.wordpress.com ---- */
+
+body{
+    background-color: #440000;
+    background-image: url("https://images.unsplash.com/photo-1617184706140-ef3b12909cc0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwMTIxOTR8&ixlib=rb-4.0.3&q=85");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    filter: sepia(100%);
+    animation: myAnim 6s ease 0s 1 normal forwards;
+   }
+  
+  @keyframes myAnim {
+      0% {
+          background-position: center bottom;
+      background-size: 100%;
+      
+      }
+  
+      100% {
+          background-position: center middle;
+      background-size: 130%;
+      
+      }
+  }
+  
+  .col-sm-4{
+    color: #fff;
+    font-family: Times New Roman;
+    font-size: 12px;
+  }
+  
+  
+  
